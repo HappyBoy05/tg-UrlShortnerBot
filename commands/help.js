@@ -5,8 +5,8 @@ const bot = new TeleBot(config.botToken);
 
 const help = (msg) => {
 	const replyMarkup = bot.inlineKeyboard([
-		[bot.inlineButton('Source Code', { url: 'https://github.com/icodelifee/tg-UrlShortnerBot' })],
-		[bot.inlineButton('Support Chat', { url: 'https://t.me/itorrentchat' })],
+		[bot.inlineButton('HB4All', { url: 'https://t.me/hb4all' })],
+		[bot.inlineButton('HB4All Bot', { url: 'https://t.me/hb4all_bot' })],
 	]);
 	msg.reply
 		.text(
@@ -26,7 +26,7 @@ const help = (msg) => {
 				`Bc.vc\n` +
 				`NowVideo and AuroraVid (MP4/FLV video direct link will be extracted)\n` +
 				`All generic services that use simple 301/302 redirect (goo.gl, bit.ly, t.co,...)</code>\n` +
-				`\n<code>Bot Developer : </code>@iCodeLife`,
+				`\n<code>Bot Developer : </code>@happyboy59`,
 			{
 				asReply: true,
 				parseMode: 'html',
